@@ -7,7 +7,7 @@ cask "magnify" do
   desc "System-wide magnifying glass for macOS"
   homepage "https://github.com/robert-bogos/magnify"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "Magnify.app"
